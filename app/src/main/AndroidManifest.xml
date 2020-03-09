@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rafiulhassan.qrcodebasedevent">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/qrbealogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivitySettings"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ActivityProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityQRScanner"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ActivityDashBoard" />
+        <activity
+            android:name=".StartingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityCreateEvent" />
+        <activity android:name=".AllEvents.ActivityEvents" />
+        <activity android:name=".ActivityQrGenerator" />
+        <activity android:name=".ActivitySubscribeEvent" />
+        <activity android:name=".SubscribedUsers.ActivitySubscribedUsers" />
+        <activity android:name=".AttendanceReport.ActivityAttendanceReport"></activity>
+    </application>
+
+</manifest>

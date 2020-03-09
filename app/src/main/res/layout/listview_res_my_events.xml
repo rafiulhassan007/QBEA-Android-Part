@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:background="@drawable/shape_rectangle_round_corner"
+    app:cardBackgroundColor="@color/colorBG_up">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:padding="8dp"
+            android:id="@+id/iiiiiaa"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_my_event"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/textView_my_event_title"
+            android:layout_toRightOf="@+id/iiiiiaa"
+            android:layout_marginLeft="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginTop="5dp"
+            android:text="--------"
+            android:fontFamily="@font/azonix"
+            android:textColor="@color/colorWhite"
+            android:textSize="12sp"
+            android:layout_marginBottom="3dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView_my_event_desc"
+            android:fontFamily="@font/azonix"
+            android:layout_toRightOf="@+id/iiiiiaa"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/textView_my_event_title"
+            android:layout_width="match_parent"
+            android:textSize="10sp"
+            android:text="------"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView_my_event_code"
+            android:fontFamily="@font/azonix"
+            android:layout_toRightOf="@+id/iiiiiaa"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/textView_my_event_desc"
+            android:layout_width="match_parent"
+            android:textSize="10sp"
+            android:text="------"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView_my_created_on"
+            android:fontFamily="@font/azonix"
+            android:layout_toRightOf="@+id/iiiiiaa"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorAccent"
+            android:layout_below="@+id/textView_my_event_code"
+            android:layout_width="match_parent"
+            android:textSize="12sp"
+            android:text="------"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

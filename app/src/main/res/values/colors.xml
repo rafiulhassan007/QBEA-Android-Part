@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#F1B405</color>
+    <color name="colorBG_up2">#531112</color>
+    <color name="colorBG_up">#f9322f49</color>
+    <color name="colorBG_down">#5c6f8b</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="Lottie_jumping_gift">#33363b</color>
+</resources>

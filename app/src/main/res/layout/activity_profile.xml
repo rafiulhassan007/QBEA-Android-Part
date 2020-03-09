@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gardient"
+    android:orientation="vertical"
+    tools:context=".ActivityProfile">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:layout_weight=".3"
+        android:src="@drawable/profile3" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        app:cardBackgroundColor="@color/colorBG_down"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/azonix"
+                    android:text="Name"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/textView_profile_user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/font21"
+                    android:text="-------"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/azonix"
+                    android:text="Email"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/textView_profile_user_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="-------"
+                    android:fontFamily="@font/font21"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/azonix"
+                    android:text="Mobile / Tel. No."
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/textView_profile_user_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/font21"
+                    android:text="-------"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/azonix"
+                    android:text="Gender"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/textView_profile_user_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/font21"
+                    android:text="-------"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/azonix"
+                    android:text="Address"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:textSize="18sp"
+                    android:id="@+id/textView_profile_user_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/font21"
+                    android:text="-------"
+                    android:textColor="@color/colorWhite" />
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

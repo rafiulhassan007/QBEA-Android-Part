@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_gardient"
+    tools:context=".StartingActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0.0dip"
+    android:orientation="vertical"
+    android:layout_weight=".6">
+    <ImageView
+        android:paddingTop="10dp"
+        android:src="@drawable/qrbealogo"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"/>
+    <TextView
+        android:text="QR Code based Attendance Monitoring"
+        android:fontFamily="@font/azonix"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_weight=".5"
+        android:layout_height="0.0dip" />
+</LinearLayout>
+    <FrameLayout
+        android:id="@+id/starting_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1"></FrameLayout>
+</LinearLayout>
